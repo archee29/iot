@@ -1,0 +1,72 @@
+name: iot
+version: 0.1.0
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  get: 4.6.6
+  get_storage: ^2.1.1
+  firebase_core: ^2.31.0
+  firebase_auth: ^4.19.2
+  firebase_database: ^10.5.2
+  firebase_storage: ^11.7.2
+  cloud_firestore: ^4.17.0
+  convex_bottom_bar: ^3.2.0
+  carousel_slider: ^4.2.1
+  image_picker: ^1.1.0
+  intl:  ^0.19.0
+  geolocator: ^11.0.0
+  geocoding: ^3.0.0
+  flutter_svg: ^2.0.10+1
+  maps_launcher: ^2.2.1
+  syncfusion_flutter_datepicker: ^25.1.40
+  syncfusion_flutter_calendar: ^25.1.40
+  table_calendar: ^3.1.1
+  flutter_switch: ^0.3.2
+
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^3.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+
+  fonts:
+    - family: poppins
+      fonts:
+        - asset: assets/fonts/Poppins/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins/Poppins-ExtraBold.ttf
+          weight: 800
+    - family: inter
+      fonts:
+        - asset: assets/fonts/inter/Inter-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/inter/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/inter/Inter-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/inter/Inter-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/inter/Inter-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/inter/Inter-Black.ttf
+          weight: 900
+
